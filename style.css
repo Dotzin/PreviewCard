@@ -22,7 +22,8 @@ html {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-
+  height: 80%;
+  max-height: 700px;
   padding: 30px;
   border-radius: 20px;
   -webkit-box-shadow: 7px 6px 0px 0px rgba(0, 0, 0, 1);
@@ -33,6 +34,7 @@ html {
   display: flex;
   width: 100%;
   justify-content: center;
+  min-width: 200px;
 }
 .aprendendo {
   font-weight: 900;
