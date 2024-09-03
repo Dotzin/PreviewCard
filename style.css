@@ -18,6 +18,7 @@ html {
 }
 .conteiner {
   width: 50%;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
