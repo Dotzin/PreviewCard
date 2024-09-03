@@ -50,16 +50,13 @@ html {
 }
 .titulo {
   font-size: 25px;
-  margin: 15px 0px 15px 0px;
   font-weight: 900;
 }
 .titulo:hover {
   color: hsl(47, 88%, 63%);
   cursor: pointer;
 }
-.descricao {
-  margin: 15px 0px 15px 0px;
-}
+
 .pessoa {
   display: flex;
   align-items: center;
@@ -69,4 +66,11 @@ html {
 }
 .nome {
   font-weight: 800;
+}
+main {
+  height: 100%;
+}
+.titulo {
+  font-size: 15px;
+  margin: -7px;
 }
